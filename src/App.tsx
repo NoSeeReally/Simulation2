@@ -1,8 +1,10 @@
 import './index.css';
 import './App.css';
-
+import Header from './Header';
 export default function App() {
   return (
-    <h1>Hello, World!</h1>
+    <>
+      <Header title = "This is simulation 2."/>  
+    </>
   );
 }
